@@ -27,12 +27,12 @@
                 'class' => 'yii\authclient\Collection',
                 'clients' => [
                     'oidc' => [
-                            'class' => 'yii\authclient\OpenIdConnect',
-                            'issuerUrl' => 'http://localhost:8080/auth/realms/master',
-                            'clientId' => 'yii-oidc',
-                            'clientSecret' => '93d4915a-be3e-4eea-ac34-f8209bf12154',
-                            'name' => 'Keycloak',
-                            'title' => 'Keycloak OpenID Connect',
+                        'class' => 'yii\authclient\OpenIdConnect',
+                        'issuerUrl' => 'http://localhost:8080/auth/realms/master',
+                        'clientId' => 'yii-oidc',
+                        'clientSecret' => '93d4915a-be3e-4eea-ac34-f8209bf12154',
+                        'name' => 'Keycloak',
+                        'title' => 'Keycloak OpenID Connect',
                     ],
                 ],
             ],
